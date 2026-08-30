@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chillox</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
+        integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+    <!-- nav and hero section -->
+    <section id="home" class="bg-[url(./images/hero-bg.jpg)] bg-cover bg-center bg-no-repeat h-screen ">
+        <div class="w-[80%] mx-auto">
+            <nav class="text-white flex justify-between items-center py-9 ">
+                <h1 class="text-5xl cursor-pointer" style="font-family:Dancing Script">Chillox</h1>
+                <ul class="hidden lg:flex space-x-8 font-semibold">
+                    <li class="hover:text-amber-400 transition duration-500"><a href="#home">HOME</a></li>
+                    <li class="hover:text-amber-400 transition duration-500"><a href="#menu">MENU</a></li>
+                    <li class="hover:text-amber-400 transition duration-500"><a href="#about">ABOUT</a></li>
+                    <li class="hover:text-amber-400 transition duration-500"><a href="#book">BOOK TABLE</a></li>
+                </ul>
+                <ul class="hidden lg:flex space-x-6 font-semibold items-center">
+                    <li class="hover:text-amber-400 transition duration-400 cursor-pointer"><i
+                            class="fa-solid fa-user"></i></li>
+                    <li class="hover:text-amber-400 transition duration-400 cursor-pointer"><i
+                            class="fa-solid fa-cart-shopping"></i>
+                    </li>
+                    <li class="hover:text-amber-400 transition duration-400 cursor-pointer"><i
+                            class="fa-solid fa-magnifying-glass"></i></li>
+                    <li class="font-bold">
+                        <button
+                            class="py-3 px-5 bg-amber-400 rounded-3xl hover:text-black transition duration-400 cursor-pointer">Order
+                            Now
+                        </button>
+                    </li>
+                </ul>
+                <div class="lg:hidden">
+                    <i class="fa-solid fa-bars text-2xl "></i>
+                </div>
+            </nav>
+
+            <div class="w-[90%] mx-auto sm:w-[40%] sm:mx-0 text-white my-2 sm:my-10 lg:my-40">
+                <h1 class="text-5xl my-5" style="font-family: Dancing Script;">Fast Food Restaurant</h1>
+                <p class="my-4">Craving the ultimate fast food experience? From juicy handcrafted burgers to crispy
+                    golden fries and cheesy pizzas, we serve delicious meals made with fresh ingredients. Satisfy your
+                    taste buds today!</p>
+                <button
+                    class="py-3 px-5 bg-amber-400 rounded-3xl hover:text-black transition duration-400 cursor-pointer ">ORDER
+                    NOW</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- banner section -->
+    <section class="w-[80%] mx-auto my-30 grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="bg-black sm:flex gap-5 items-center py-7 px-5 rounded-2xl ">
+            <div class="flex justify-center items-center">
+                <img src="./images/o1.jpg" alt="" class="w-50 h-50 border-4 rounded-[50%] border-amber-400">
+            </div>
+            <div class="text-center text-white space-y-4" style="font-family: Dancing Script;">
+                <p class="text-2xl">Tasty Thursdays</p>
+                <p class="text-4xl">20% <span class="text-2xl">Off</span></p>
+                <button
+                    class="py-2 px-5 bg-amber-400 rounded-3xl font-bold text-xl hover:text-black transition duration-400 cursor-pointer">Orrder
+                    Now</button>
+            </div>
+        </div>
+        <div class="bg-black sm:flex gap-5 items-center py-7 px-5 rounded-2xl ">
+            <div class="flex justify-center items-center">
+                <img src="./images/o2.jpg" alt="" class="w-50 h-50 border-4 rounded-[50%] border-amber-400">
+            </div>
+            <div class="text-center text-white space-y-4" style="font-family: Dancing Script;">
+                <p class="text-2xl">Pizza Days</p>
+                <p class="text-4xl">15% <span class="text-2xl">Off</span></p>
+                <button
+                    class="py-2 px-5 bg-amber-400 rounded-3xl font-bold text-xl hover:text-black transition duration-400 cursor-pointer">Orrder
+                    Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section -->
+    <section id="menu" class="w-[80%] mx-auto mt-5">
+        <h1 class="text-4xl font-bold text-center " style="font-family: Dancing Script;">Our Menu</h1>
+        <ul class="flex justify-center space-x-6 my-10 font-semibold text-md">
+            <li class="hover:text-amber-400 transition duration-300"><a href="">All</a></li>
+            <li class="hover:text-amber-400 transition duration-300"><a href="">Burger</a></li>
+            <li class="hover:text-amber-400 transition duration-300"><a href="">Pizza</a></li>
+            <li class="hover:text-amber-400 transition duration-300"><a href="">Pasta</a></li>
+            <li class="hover:text-amber-400 transition duration-300"><a href="Fried"></a></li>
+        </ul>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f1.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Delicious Pizza</h2>
+                    <p class="my-2">Classic Italian pizza baked to perfection with melted cheese, signature sauce, and
+                        fresh toppings.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$18</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f2.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Delicious Burger</h2>
+                    <p class="my-2">Juicy handcrafted meat patty layered with rich cheese and special house sauce for
+                        the ultimate taste.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$12</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f3.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Delicious Pizza</h2>
+                    <p class="my-2">Crispy crust loaded with extra mozzarella cheese and flavorful spices to satisfy
+                        your cravings.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$17</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f4.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Delicious Pasta</h2>
+                    <p class="my-2">Rich and creamy pasta tossed with garlic, herbs, and savory rich sauce for a
+                        comforting meal.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$15</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f5.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">French Fries</h2>
+                    <p class="my-2">Hot and crispy golden French fries seasoned lightly, served with a delicious dipping
+                        sauce.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$8</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f6.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Delicious Pizza</h2>
+                    <p class="my-2">Loaded with fresh garden vegetables and premium meats, perfect for sharing with
+                        friends.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$22</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f7.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Tasty Burger</h2>
+                    <p class="my-2">Double patty monster burger packed with melted cheese and crisp lettuce for big
+                        appetites.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$14</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f8.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Tasty Burger</h2>
+                    <p class="my-2">Smoky grilled chicken patty served in toasted buns with fresh veggies and tangy
+                        sauce.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$11</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-black text-white rounded-3xl">
+                <div
+                    class="bg-gray-300 flex justify-center items-center p-8 rounded-bl-4xl rounded-tl-2xl rounded-tr-2xl">
+                    <img src="./images/f9.png" alt="" class="h-40 mx-auto">
+                </div>
+                <div class="p-5 pb-1">
+                    <h2 class="text-2xl my-1">Delicious Pasta</h2>
+                    <p class="my-2">Authentic Italian pasta coated in rich cheesy sauce and aromatic herbs for a
+                        mouthwatering bite.</p>
+                    <div class="flex justify-between text-xl my-6 mb-2">
+                        <p>$16</p>
+                        <div class="h-11 w-11 rounded-[50%] bg-white flex justify-center items-center">
+                            <i class="fa-solid fa-cart-shopping text-amber-400"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <button
+                class="py-3 px-20 bg-amber-400 text-white font-semibold rounded-4xl my-12 hover:text-black transition duration-400 cursor-pointer">View
+                More</button>
+        </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="bg-[#222831] py-20 md:py-35">
+        <div
+            class="w-[80%] mx-auto text-center md:text-start grid grid-cols-1 md:grid-cols-2 gap-1 items-center justify-center lg:px-10">
+            <img src="./images/about-img.png" alt=""
+                class="h-90 md:h-150 justify-self-center order-2 md:order-1 my-10 md:my-0">
+            <div class="text-white order-1 md:order-2">
+                <h1 class="text-6xl" style="font-family: Dancing Script;">We Are Feane</h1>
+                <p class="my-8">At Chillox, we believe fast food should be an unforgettable experience. Made with the
+                    freshest ingredients and our secret blend of spices, every burger and meal is prepared to satisfy
+                    your deepest cravings. Come for the taste, stay for the good vibes!</p>
+                <button
+                    class="p-3 px-8 bg-amber-400 rounded-3xl font-semibold hover:text-black transition duration-400 cursor-pointer">Read
+                    More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- table book section -->
+    <section id="book" class="w-[80%] mx-auto grid gap-5 md:grid-cols-2 grid-cols-1 py-20 items-center">
+        <div>
+            <h1 class="text-5xl mb-7 font-bold" style="font-family: Dancing Script;">Book A Table</h1>
+            <table class=" bg-black">
+                <input type="text" name="" placeholder="Name" id=""
+                    class="w-full py-3 px-5 text-[18px] border my-3 rounded-sm outline-0">
+                <input type="number" name="" placeholder="Number" id=""
+                    class="w-full py-3 px-5 text-[18px] border my-3 rounded-sm outline-0">
+                <input type="email" name="" placeholder="Email" id=""
+                    class="w-full py-3 px-5 text-[18px] border my-3 rounded-sm outline-0">
+                <select name="" id="" class="w-full py-3 px-5 text-[18px] border my-3 rounded-sm outline-0">
+                    <option value="">How many Person?</option>
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
+                <input type="date" name="" id="" class="w-full py-3 px-5 text-[18px] border my-3 rounded-sm outline-0">
+                <button
+                    class="py-3 px-10 bg-amber-400 rounded-4xl font-semibold text-white mt-4 hover:text-black transition duration-400 cursor-pointer">Book
+                    Now</button>
+            </table>
+        </div>
+        <div class="p-2">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.203843561943!2d90.37226617537922!3d23.74010927867749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8caa7eca729%3A0x6db329263b9d0b51!2sChillox%20Dhanmondi!5e0!3m2!1sen!2sbd!4v1788099616926!5m2!1sen!2sbd"
+                width="100%" height="350" style="border-radius: 10px;" allowfullscreen="" loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+    </section>
+
+    <!-- review section -->
+    <section class="w-[80%] mx-auto">
+        <h1 class="text-5xl text-center " style="font-family: Dancing Script;">What Says Our Customers</h1>
+        <div class="grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 my-16">
+            <div class="bg-[#222831] p-5 text-white rounded-md">
+                <h1>⭐⭐⭐⭐⭐</h1>
+                <h1 class="my-5">Chillox-এর বার্গারের জুসিনেস এক কথায় অসাধারণ! স্পেশাল সস আর ফ্রেশ বান মেজাজ একদম ফ্রেশ
+                    করে দেয়।</h1>
+                <h1 class="font-bold text-2xl" style="font-family: Dancing Script;">Shawon Ahammed</h1>
+            </div>
+            <div class="bg-[#222831] p-5 text-white rounded-md">
+                <h1>⭐⭐⭐⭐⭐</h1>
+                <h1 class="my-5">The best burgers in town without a doubt! Extremely juicy, well-cooked, and worth every
+                    single taka.</h1>
+                <h1 class="font-bold text-2xl" style="font-family: Dancing Script;">Tanvir Hasan</h1>
+            </div>
+            <div class="bg-[#222831] p-5 text-white rounded-md">
+                <h1>⭐⭐⭐⭐⭐</h1>
+                <h1 class="my-5">এদের চিজ পিজা আর ক্রিসপি ফ্রাইজ অসাধারণ ছিল। সার্ভিসও অনেক ফাস্ট এবং ফ্রেন্ডলি। বারবার
+                    আসার মতো জায়গা!</h1>
+                <h1 class="font-bold text-2xl" style="font-family: Dancing Script;">Nusrat Jahan</h1>
+            </div>
+            <div class="bg-[#222831] p-5 text-white rounded-md">
+                <h1>⭐⭐⭐⭐⭐</h1>
+                <h1 class="my-5">Amazing ambiance and delicious food! The smoky taste of their patty is just unmatched.
+                    Highly recommended!</h1>
+                <h1 class="font-bold text-2xl" style="font-family: Dancing Script;">Arafat Rahman</h1>
+            </div>
+            <div class="bg-[#222831] p-5 text-white rounded-md">
+                <h1>⭐⭐⭐⭐⭐</h1>
+                <h1 class="my-5">বন্ধুদের সাথে আড্ডা দেওয়ার জন্য একদম পারফেক্ট প্লেস। খাবারের কোয়ালিটি আর পরিমাণ দুটোই
+                    সেরা ছিল।</h1>
+                <h1 class="font-bold text-2xl" style="font-family: Dancing Script;">Sumi Akter</h1>
+            </div>
+            <div class="bg-[#222831] p-5 text-white rounded-md">
+                <h1>⭐⭐⭐⭐⭐</h1>
+                <h1 class="my-5">Super fast delivery and hot served food. The flavors were perfectly balanced. Will
+                    order again soon!</h1>
+                <h1 class="font-bold text-2xl" style="font-family: Dancing Script;">Mahmudul Karim</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="bg-[#222831] py-17">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-5 justify-items-center items-center py-15 px-5 text-white">
+            <div class="">
+                <h1 class="text-4xl my-4 font-bold" style="font-family: Dancing Script;">Contact Us</h1>
+                <ul class="space-y-2 font-semibold text-center">
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Mobile</a></li>
+                    <li><a href="#">chillox@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="text-center">
+                <h1 class="text-6xl my-4 font-bold" style="font-family: Dancing Script;">chillox</h1>
+                <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200
+                    Latin words, combined with</p>
+            </div>
+            <div class="text-center">
+                <h1 class="text-4xl my-4 font-bold " style="font-family: Dancing Script;">Opening Hours</h1>
+                <ul class="space-y-2 font-semibold">
+                    <li>Everyday</li>
+                    <li>10.00 Am -10.00 Pm</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center text-white text-md">
+            <ul class="space-y-2">
+                <li>© 2026 All Rights Reserved By Chillox</li>
+                <li>© Distributed By <a href="facebook.com/sazzadhossain.5758">Sazzad Hossain</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
